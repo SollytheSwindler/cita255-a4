@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QuestLog"
+             x:Class="QuestLog.MainPage"
+             Title="Quest Log">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto, Auto, Auto, Auto, Auto"
+          Padding="24"
+          RowSpacing="14">
+
+        <Label Grid.Row="0"
+               Text="Quest Log"
+               FontSize="30"
+               FontAttributes="Bold" />
+
+        <Label Grid.Row="1"
+               x:Name="CountLabel"
+               Text="0 quests"
+               FontSize="14"
+               TextColor="Gray" />
+
+        <Border Grid.Row="2" Stroke="LightGray" StrokeThickness="1" Padding="4">
+            <CollectionView x:Name="QuestView" ItemsSource="{Binding Quests}" SelectionMode="Single" SelectionChanged="OnQuestSelect">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <local:QuestCard/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+                <CollectionView.EmptyView>
+                    <Label Text="No quests yet."
+                           FontSize="16" TextColor="Gray"
+                           HorizontalOptions="Center" VerticalOptions="Center" />
+                </CollectionView.EmptyView>
+
+            </CollectionView>
+        </Border>
+
+        <Entry x:Name="TitleEntry" Placeholder="Title" Grid.Row="3"/>
+        <Entry x:Name="GiverEntry" Placeholder="Giver" Grid.Row="4"/>
+        <Entry x:Name="RewardEntry" Placeholder="Reward" Grid.Row="5"/>
+
+        <Button Grid.Row="6"
+                Text="Accept a quest"
+                Clicked="OnAddClicked" />
+
+        <Button Grid.Row="7"
+                Text="Drop out of a quest"
+                Clicked="OnRemoveClicked" />
+
+    </Grid>
+</ContentPage>

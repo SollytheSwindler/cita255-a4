@@ -31021,11 +31021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\QuestLog\\QuestLog\\QuestLog.csproj",
+      "projectUniqueName": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\cita255-a4\\QuestLog\\QuestLog\\QuestLog.csproj",
       "projectName": "QuestLog",
-      "projectPath": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\QuestLog\\QuestLog\\QuestLog.csproj",
+      "projectPath": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\cita255-a4\\QuestLog\\QuestLog\\QuestLog.csproj",
       "packagesPath": "C:\\Users\\solly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\QuestLog\\QuestLog\\obj\\",
+      "outputPath": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\cita255-a4\\QuestLog\\QuestLog\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

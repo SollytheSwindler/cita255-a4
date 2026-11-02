@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lWC9ChGYEx8=",
+  "dgSpecHash": "3qaIW3EP/g0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\QuestLog\\QuestLog\\QuestLog.csproj",
+  "projectFilePath": "C:\\Users\\solly\\OneDrive\\Desktop\\Schoolwork Items\\cita255-a4\\QuestLog\\QuestLog\\QuestLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\solly\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
     "C:\\Users\\solly\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",
